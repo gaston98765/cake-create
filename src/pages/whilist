@@ -1,0 +1,9 @@
+      <!-- <h2>Saved Cakes (Wishlist)</h2>
+      <div v-if="wishlist.length > 0">
+        <ul>
+          <li v-for="cake in wishlist" :key="cake.id">🍰 {{ cake.name }} - ${{ cake.price }}</li>
+        </ul>
+      </div> 
+      <p v-else>Your wishlist is empty.</p>
+  
+    </div>-->

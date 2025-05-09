@@ -1,0 +1,52 @@
+
+  /*  Page Container */
+  .customize-container {
+    text-align: center;
+    padding: 40px;
+    background: #fffaf1;
+  }
+  
+  /*  Step Navigation */
+  .steps {
+    margin-bottom: 20px;
+  }
+  
+  .steps button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background: lightgray;
+    cursor: pointer;
+  }
+  
+  .steps button.active {
+    background: #ff5a5f;
+    color: white;
+  }
+  
+  /* Options */
+  .options button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .options button.selected {
+    background: #ff5a5f;
+    color: white;
+  }
+  
+  /*  Navigation Buttons */
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background: #ff5a5f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+ 
+  

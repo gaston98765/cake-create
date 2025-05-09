@@ -1,0 +1,43 @@
+.about-page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h2{
+    color:rgb(var(--v-theme-secondary))
+  }
+  li{
+    color:rgb(var(--v-theme-primary))
+  }
+  .subtitle {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .about-content {
+    text-align: left;
+  }
+  
+  .about-image {
+    width: 100%;         /* Make it span the full width */
+    max-width: 800px;    /* Set a maximum width */
+    height: auto;        /* Maintain aspect ratio */
+    aspect-ratio: 16/7;  /* Forces a horizontal aspect ratio */
+    border-radius: 12px; /* Slight rounded corners */
+    display: block;
+    margin: 20px auto;   /* Center the image */
+  }
+  
+  
+  ul {
+    text-align: left;
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  

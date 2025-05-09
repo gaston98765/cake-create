@@ -1,0 +1,30 @@
+.account-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .account-info {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+  }
+ 

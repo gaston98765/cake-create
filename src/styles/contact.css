@@ -1,0 +1,47 @@
+.contact-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff2d32;
+  }
+  
+  .success-message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+  }
+  

@@ -1,0 +1,66 @@
+/* Navbar Container */
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition-duration: 0ms;
+  padding: 15px 40px;
+  background-color: rgb(var(--v-theme-secondary)); /* Same as home background */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove white box effect */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  background: none; /*  Ensure no background */
+}
+
+/* Ensure no background on list items */
+.nav-links li {
+  display: inline-block;
+  padding: 0; /*  Remove any padding */
+  background: none !important; /* Remove any forced background */
+  border-radius: 0;
+  box-shadow: none; /*  Remove box-shadow */
+}
+
+/* Styling for the navbar links */
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: black; /* ✅ Make text black */
+  padding: 8px 12px; /* Adjust spacing */
+  transition: color 0.3s ease-in-out;
+  background: none; /* ✅ Ensure no background */
+}
+
+/* Change color on hover */
+.nav-links a:hover {
+  color: #ff5a5f;
+}
+
+/* Nav Icons (My Account & Cart) */
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.nav-icons a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  background: none; /* Ensure no background */
+}
+
+.nav-icons a:hover {
+  color: rgb(var(--v-theme-primary));
+}
